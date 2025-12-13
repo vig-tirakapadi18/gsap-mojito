@@ -1,6 +1,13 @@
+import Hero from "@/components/awwwards/Hero";
 
 const Awwwards = () => {
-  return <div className="font-robert-medium text-blue50">Hello</div>;
-}
+  return (
+    <div>
+      <Hero />
+
+      <section className="w-screen min-h-screen bg-stone-600" />
+    </div>
+  );
+};
 
 export default Awwwards;
